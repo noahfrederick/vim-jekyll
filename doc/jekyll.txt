@@ -1,0 +1,60 @@
+*jekyll.txt*	Vim extensions for Jekyll 2 sites
+Noah Frederick                                           *Jekyll.vim* *jekyll*
+
+==============================================================================
+CONTENTS                                                     *jekyll-contents*
+  1. Introduction...............................................|jekyll-intro|
+  2. Configuration.............................................|jekyll-config|
+  3. Functions..............................................|jekyll-functions|
+  4. About......................................................|jekyll-about|
+
+==============================================================================
+INTRODUCTION                                                    *jekyll-intro*
+
+Jekyll.vim provides conveniences for working with Jekyll 2 projects. Some
+features include:
+
+A :Jekyll wrapper around command-line utility with completion
+A :Publish command to publish your drafts
+Projections via projectionist.vim, which provide :Epost, :Edraft, etc.
+Optional integration with dispatch.vim
+
+This plug-in is only available if 'compatible' is not set.
+
+==============================================================================
+CONFIGURATION                                                  *jekyll-config*
+
+                                                           *g:jekyll_post_ext*
+The file extension to use for posts
+
+Default: ".md"
+
+                                                           *g:jekyll_dispatch*
+The :Dispatch command to run in Jekyll buffers
+
+Default: "jekyll build" ("bundle exec jekyll build" if a Gemfile is present)
+
+                                                              *g:jekyll_start*
+The :Start command to run in Jekyll buffers
+
+Default: "jekyll serve" ("bundle exec jekyll serve" if a Gemfile is present)
+
+==============================================================================
+FUNCTIONS                                                   *jekyll-functions*
+
+jekyll#version()                                            *jekyll#version()*
+  Get the version number of Jekyll.vim (e.g., '1.0.0')
+
+==============================================================================
+ABOUT                                                           *jekyll-about*
+
+Jekyll.vim is distributed under the same terms as Vim itself (see |license|)
+
+You can find the latest version of this plug-in on GitHub:
+https://github.com/noahfrederick/vim-jekyll
+
+Please report issues on GitHub as well:
+https://github.com/noahfrederick/vim-jekyll/issues
+
+
+vim:tw=78:ts=8:ft=help:norl:
