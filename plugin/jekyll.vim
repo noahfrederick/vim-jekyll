@@ -7,10 +7,10 @@
 " @plugin(stylized) provides conveniences for working with Jekyll 2
 " projects. Some features include:
 "
-" - A :Jekyll wrapper around command-line utility with completion
-" - A :Publish command to publish your drafts
-" - Projections via projectionist.vim, which provide :Epost, :Edraft, etc.
-" - Optional integration with dispatch.vim
+" * A :Jekyll wrapper around the command-line utility with completion
+" * A :Publish command to publish your drafts
+" * Projections via projectionist.vim, which provide :Epost, :Edraft, etc.
+" * Optional integration with dispatch.vim
 "
 " This plug-in is only available if 'compatible' is not set.
 
