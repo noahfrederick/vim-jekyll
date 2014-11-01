@@ -152,6 +152,7 @@ endfunction
 augroup jekyll_projections
   autocmd!
   autocmd User ProjectionistDetect call s:projectionist_detect()
+  autocmd User ProjectionistActivate call jekyll#projectionist_activate()
 augroup END
 
 " }}}

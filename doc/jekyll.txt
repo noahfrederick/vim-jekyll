@@ -5,8 +5,9 @@ Noah Frederick                                           *Jekyll.vim* *jekyll*
 CONTENTS                                                     *jekyll-contents*
   1. Introduction...............................................|jekyll-intro|
   2. Configuration.............................................|jekyll-config|
-  3. Functions..............................................|jekyll-functions|
-  4. About......................................................|jekyll-about|
+  3. Commands................................................|jekyll-commands|
+  4. Functions..............................................|jekyll-functions|
+  5. About......................................................|jekyll-about|
 
 ==============================================================================
 INTRODUCTION                                                    *jekyll-intro*
@@ -38,6 +39,15 @@ Default: "jekyll build" ("bundle exec jekyll build" if a Gemfile is present)
 The :Start command to run in Jekyll buffers
 
 Default: "jekyll serve" ("bundle exec jekyll serve" if a Gemfile is present)
+
+==============================================================================
+COMMANDS                                                     *jekyll-commands*
+
+:[N]Publish                                                         *:Publish*
+  Publish the current draft post (only available in draft buffers).
+
+  This command moves the current buffer's file from the _drafts/ directory to
+  the _posts/ directory and prepends the current date as the published date.
 
 ==============================================================================
 FUNCTIONS                                                   *jekyll-functions*
