@@ -10,11 +10,11 @@ Vim extensions for Jekyll 2 sites.
 
 ### Dependencies
 
-Technically, these dependencies are all optional, but the best features rely on
-them.
+- [projectionist.vim][projectionist]
+- [dispatch.vim][dispatch]
 
-- projectionist.vim
-- dispatch.vim
+[projectionist]: https://github.com/tpope/vim-projectionist
+[dispatch]: https://github.com/tpope/vim-dispatch
 
 ## Development
 
