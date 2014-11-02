@@ -5,7 +5,7 @@
 " @public
 " Get the version number of @plugin(stylized) (e.g., '1.0.0')
 function! jekyll#version()
-  return '0.0.0'
+  return '0.1.0'
 endfunction
 
 ""

@@ -1,6 +1,6 @@
 {
 	"name":        "jekyll",
-	"version":     "0.0.0",
+	"version":     "0.1.0",
 	"author":      "Noah Frederick",
 	"description": "Vim extensions for Jekyll 2 sites",
 	"homepage":    "https://github.com/noahfrederick/vim-jekyll"
